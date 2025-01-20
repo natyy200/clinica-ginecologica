@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2284/2284897.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Clinica Ginecológica</title>
+</head>
+<body>
+    <section id="clinica">
+        <h1 class="title">Clínica Ginecológica da Mulher</h1>
+        <p>Seja bem-vinda à Clinica da Mulher Brasileira!</p>
+        <nav>
+            <ul id="nav">
+                <li><a href="#clinica">Início</a></li>        
+                <li><a href="#about">Sobre a clínica</a></li>
+                <li><a href="#horario">Horário de Funcionamento</a></li>
+                <li><a href="#agendamento">Agendamento Online</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <picture id="illustration">
+        <img src="./assets/img/undraw_doctor_aum1.svg"/>
+    </picture>
+
+    <section id="about">
+        <h2 class="title-two">Sobre a clínica</h2>
+
+            <div class="content-about">
+                <p>A Clínica Ginecológica da Mulher surgiu pela necessidade que sete médicos sentiam de ter um local para trabalhar que fosse seguro, ético e profissional, com um bom ambiente de trabalho. Pensando na necessidade de maior atenção à saúde da mulher, estes profissionais se uniram e fundaram, em 2005, a maior clínica voltada à saúde da mulher da região de Contagem. Com o objetivo de termos a qualidade em tudo que fazemos, definimos como missão, visão e valores. <br>
+                <b>Missão: </b>Preserver a saúde e a qualidade de vida das nossas pacientes, a partir de um atendimento profissional, ético, humano e personalizado. <br>
+                <b>visão: </b>Ser uma clínica voltada à mulher respeitando a saúde e qualidade de vida de todos os pacientes e colaboradores. <br>
+                <b>Valores: </b>Compromisso com o cliente | Ética nos negócios | Educação e formação de pessoas | Transparência | Responsabilidade Social | Respeito e Valorização da mulher |<br>
+                </p>
+            </div>
+
+    </section>
+
+    <section id="horario">
+        <h2 class="title-two">Horário de Funcionamento</h2>
+
+        <table>
+                <caption><b>Horários</b></caption>
+            <tr> 
+                <th>Especialidades</th>
+                <th>Segunda a Sexta</th>
+                <th>Valores</th>
+                <th>Sábado</th>
+                <th>Valores</th>
+                <th>Domingo/Feriado</th>                
+            </tr>
+            
+            <tr>
+                <td>Adulto</td>
+                <td>07h às 19h</td>
+                <td>R$ 155.00</td>
+                <td>07h às 12h</td>
+                <td>R$ 170.00</td>
+                <td>FECHADO</td>
+
+            <tr> 
+                <td>Adolescente</td>
+                <td>09h às 16h</td>
+                <td>R$ 170.00</td>
+                <td>08h às 11h</td>
+                <td>R$ 190.00</td>
+                <td>FECHADO</td>
+            
+            <tr>
+                <td>Oncologia</td>
+                <td>09h às 16h</td>
+                <td>R$ 200.00</td>
+                <td>08h às 11h</td>
+                <td>R$ 230.00</td>
+                <td>FECHADO</td>
+            </tr>
+            </tr></table>
+    </section>
+
+    <section id="agendamento-online">
+        <h2 class="title-two">Agendamento Online</h2>
+        
+        <select>
+            <option>ESCOLHA UMA ESPECIALIDADE</option>
+            <option>ADULTO</option>
+            <option>ADOLESCENTE</option>
+            <option>ONCOLOGIA</option>
+        </select>
+        <section id="campos-agendamento">
+            <form class="form"> 
+
+                <div class="input-group">
+                        <label>NOME COMPLETO: </label><input type="text" name="Nome Completo" placeholder="Digite seu nome aqui" required>
+                        <label>CPF: </label> <input type="text" placeholder="Digite seu CPF" required>
+                        <label>Data de Nasc.</label><input type="date" name="" id="" required>     
+                    
+                    <label>Email</label> <input type="email" placeholder="Digite seu e-mail" required>
+                
+                    <label><h4>Endereço: </h4></label>
+                    
+                    <input type="text" placeholder="Rua" required> <br>  <br>
+                    <input type="text" placeholder="Numero" required> <br> <br>
+                    <input type="text" placeholder="Complemento"> <br> <br>
+                    <input type="text" placeholder="Bairro" required> <br> <br>
+                    <input type="text" placeholder="Cidade" required> <br>  <br>
+                    <input type="text" placeholder="Estado" required> <br>  <br>
+                    <input type="text" placeholder="Cep"> <br>  <br>
+                    
+                    <p><strong>Você é PCD? </strong></p>
+                    <label for="pcdsim"><input id="pcdsim" type="radio" name="sim" checked /> Sim</label>
+                    <label for="pcdnao"><input id="pcdnao" type="radio" name="sim" /> Não</label>
+                </div>       
+                <button type="submit">Enviar</button>   
+            </form>
+        </section>
+    </section>
+
+    
+    <section id="contato">
+        <h1 class="title-two"> Fale conosco </h1>
+        <p> Whatsapp: (31) 91230-4685</p>
+        <p>Email: clinicadamulher@saude.com</p>
+        <p><strong>Endereço:</strong></p>
+        <address>Rua dos Guajajaras, 1500,Barro Preto, Belo Horizonte/MG</address>
+        <div class="local">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1875.5157310503641!2d-43.94942046160844!3d-19.9230789736821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6975c2661d553%3A0x73a15c4c3406524f!2sRua%20dos%20Guajajaras%2C%201500%20-%20Barro%20Preto%2C%20Belo%20Horizonte%20-%20MG%2C%2030180-101!5e0!3m2!1spt-BR!2sbr!4v1706222250708!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+    <footer>
+        <img src="https://www.podemos.org.br/wp-content/uploads/2024/11/icone-podemos-mulher.png" alt="Logo da Clinica da Mulher">
+        <p class="copyright">&copy; Copyright Clinica Ginecológica da Mulher - 2025</p>
+    </footer>
+  
+</body>
+</html>

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #ff0093;
+    --neutral-color: #18181b;
+    --neutral-color2: #262626;
+    --text-color: #cbd5e1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-size: 1rem;
+    color: var(--text-color);
+    background-color: var(--neutral-color);
+}
+
+#clinica p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.title::after {
+    position: absolute;
+    content: '';
+    background-color: var(--primary-color);
+    width: 150px;
+    height: 3px;
+    left: 1rem;
+    top: 3.5rem;
+    border-radius: 3px;
+}
+
+.title-two {
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 25px;
+}
+
+nav {
+    background-color: var(--neutral-color2);
+    padding: 15px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#nav li > a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color .2s ease;
+}
+
+#nav li > a:hover {
+    color: var(--primary-color);
+}
+
+#illustration {
+    display: flex;
+    justify-content: center;
+}
+
+#illustration img {
+    width: 50%;
+    margin: 30px;
+}
+
+/* sobre a clinica */
+
+.content-about {
+    display: flex;
+    margin: 0 20%;
+}
+
+.content-about b {
+    color: var(--primary-color);
+}
+
+/* horario de funcionamento */
+
+#horario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+caption {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+/* Agendamento */
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid var(--text-color);
+	padding: 8px 15px;
+}
+
+#agendamento-online {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#agendamento-online select {
+    background-color: var(--neutral-color2);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: var(--text-color);
+}
+
+label {
+    margin-top: 25px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+#campos-agendamento input {
+    background-color: var(--neutral-color2);
+    color: var(--text-color);
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+/*  contato */
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* rodapé */
+footer {
+	text-align: center;
+	background-color: var(--neutral-color2);
+	padding: 20px 0;
+}
+
+footer img {
+	width: 100px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 10px 0 0;
+}
+
+.local {
+    margin: 15px;
+}
