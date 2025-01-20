@@ -25,6 +25,7 @@ body {
 #clinica p {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 .title {
@@ -104,7 +105,6 @@ caption {
     margin-bottom: 10px;
 }
 
-/* Agendamento */
 table {
 	margin: 20px 0 40px;
 }
@@ -119,6 +119,8 @@ td, th {
 	border: 1px solid var(--text-color);
 	padding: 8px 15px;
 }
+
+/* Agendamento */
 
 #agendamento-online {
     display: flex;
@@ -143,7 +145,8 @@ label {
 .input-group {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
     padding: 1rem 0;
 }
 
@@ -156,6 +159,21 @@ label {
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
     font-size: 0.8rem;
+}
+
+.btn-form {
+    font-size: 1.5rem;
+    padding: 15px 100px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: background-color .5s ease;
+}
+
+.btn-form:hover {
+    background-color: #c70074;
 }
 
 /*  contato */
